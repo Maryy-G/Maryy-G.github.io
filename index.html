@@ -1,17 +1,198 @@
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maria Giga | Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-<html>
-    <head>
-        <link href="styles.css" rel="stylesheet">
+  <header class="navbar">
+    <a href="#" class="logo"> maria.giga </a>
 
-        <title> Maria's Website </title>
+    <nav>
+      <a href="#about" class="active">About</a>
+      <a href="#skills">Skillς</a>
+      <a href="#projects">Projectς</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    </head>
-    <body>
+  <main class="container">
 
-        <h1 class="header"> Coming Soon ... </h1>
-        <img src="keyboard.gif" id="keyboard"> 
-        <p class="text"> In the meantime check out <a href="https://maryy-g.github.io/ipt-festival-project/" target="_blanc">my latest project</a>!</p>
+    <section id="about" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">physics · astrophysics · code · science communication ✦</p>
+        <h1>about me</h1>
 
-    </body>
+        <p>
+          I’m Maria Giga, a Physics undergraduate at the National and Kapodistrian
+          University of Athens, specializing in Astrophysics. I’m interested in High
+          Energy Astrophysics, Computational Physics and scientific web projects.
+        </p>
+
+        <a href="#projects" class="button">See my projects</a>
+      </div>
+
+    </section>
+
+
+    <section id="skills" class="section">
+      <h2>skillς</h2>
+
+      <div class="skills-grid">
+        <article class="card">
+          <h3>physics & research</h3>
+          <div class="tags">
+            <span>astrophysics</span>
+            <span>synchrotron radiation</span>
+            <span>computational physics</span>
+            <span>numerical analysis</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>programming</h3>
+          <div class="tags">
+            <span>Python</span>
+            <span>C/C++</span>
+            <span>MATLAB</span>
+            <span>Mathematica</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>tools</h3>
+          <div class="tags">
+            <span>LaTeX</span>
+            <span>ANSYS Fluent</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>Overleaf</span>
+            <span>Linux</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>experience</h2>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="year">2026</div>
+          <div class="timeline-card">
+            <h3>Web Developer, Wiki Team</h3>
+            <p class="place">iGEM Athens 2026</p>
+            <p>
+              Working as part of the iGEM Athens wiki team, contributing to the
+              web development side of the project.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="year">2025</div>
+          <div class="timeline-card">
+            <h3>IOC Representative of Greece</h3>
+            <p class="place">International Physicists’ Tournament</p>
+            <p>
+              Representative of Greece in the International Organizing Committee
+              for the International Physicists’ Tournament.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="year">2025</div>
+          <div class="timeline-card">
+            <h3>Team Member, UoA's Team, Greece
+            </h3>
+            <p class="place">International Physicists’ Tournament</p>
+            <p>
+              Participated in IPT as part of Team Greece, including Team Captain
+              for the 2025 team.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="year">2024</div>
+          <div class="timeline-card">
+            <h3>Science Communication Editor</h3>
+            <p class="place">TheMadScientist.gr</p>
+            <p>
+              Writing and editing science communication articles.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>projectς</h2>
+
+      <div class="skills-grid">
+        <article class="card">
+          <h3>ANSYS PET Bottle Rocket</h3>
+          <p>
+            A computational fluid dynamics simulation of a PET bottle rocket using
+            ANSYS Fluent to study flow behaviour and propulsion-related phenomena.
+          </p>
+
+          <a class="card-link" href="https://github.com/Maryy-G/ANSYS-PETBottleRocket" target="_blank">
+            View project
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>IPT Athens Science Festival Website</h3>
+          <p>
+            A science outreach website promoting the participation of IPT Team UoA
+            in the Athens Science Festival.
+          </p>
+
+          <a class="card-link" href="https://maryy-g.github.io/ipt-festival-project/" target="_blank">
+            Visit website
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Science Communication</h3>
+          <p>
+            Articles and editorial work for TheMadScientist.gr, a website dedicated
+            to communicating science and debunking pseudoscientific claims.
+          </p>
+
+          <a class="card-link" href="https://themadscientist.gr/author/maria-giga/" target="_blank">
+            Read articles
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+
+      <p>
+        
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:mariagiga.phys@gmail.com">email</a>
+        <a href="https://github.com/Maryy-G" target="_blank">gitHub</a>
+        <a href="https://www.linkedin.com/in/maria-giga/" target="_blank">linkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+</body>
 </html>
