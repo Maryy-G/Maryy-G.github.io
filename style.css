@@ -125,21 +125,21 @@ img {
   transition: transform 0.1s ease, filter 0.1s ease, text-shadow 0.1s ease;
 }
 
-.logo::before {
+/*.logo::before {
   content: "☾ ";
   color: var(--vanilla);
   text-shadow:
     0 0 6px var(--glow-cream),
     0 0 14px var(--glow-cream);
-}
+}*/
 
-.logo::after {
+/*.logo::after {
   content: " ✦";
   color: var(--sky);
   text-shadow:
     0 0 6px var(--glow-blue),
     0 0 14px var(--glow-blue);
-}
+}*/
 
 .logo:hover {
   color: var(--tea);
